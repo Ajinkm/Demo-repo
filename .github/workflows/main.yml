@@ -1,0 +1,12 @@
+name: demo cicd
+
+on:
+  workflow_dispatch:
+jobs:
+  executing_sample:
+    runs-on: ubuntu-latest
+    steps:
+      - name: cloning
+        uses: actions/checkout@v6
+      - name: listing
+        run: ls -a 
