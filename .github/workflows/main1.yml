@@ -18,7 +18,7 @@ jobs:
   job2:
     runs-on: ubuntu-latest
     env:
-      friend: Akash
+      name: Akash
       job: clapping
     steps:
       - name: step2
